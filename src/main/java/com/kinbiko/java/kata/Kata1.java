@@ -9,11 +9,14 @@ package com.kinbiko.java.kata;
  * This is common practice. Your build is considered failing if it doesn't pass its tests, or if you have
  * compile errors in your code.
  *
- * Write fill out this class to make the tests pass. Do NOT edit the test.
+ * Write fill out the Kata classes to make the tests pass. Do NOT edit the test.
+ * 
+ * I recommend using an IDE like Eclipse or IntelliJ IDEA to run individual tests, as it can be a bit of pain
+ * doing so with Maven(made for professional projects, not this kind of training).
  */
 
 public class Kata1 {
-    
+
     /*
      * Write a class that has a method called getMyProperty() which returns a String
      * containing the phrase 'it worked!"
