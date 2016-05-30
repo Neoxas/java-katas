@@ -5,7 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class Kata1Test{
-    Kata1 target = new Kata1(); //Kata1Solution();
+    Kata1 target = new Kata1(); 
+    //Kata1Solution target = new Kata1Solution();
 
     @Test
     public void testGetMyProperty(){
