@@ -17,6 +17,10 @@ package com.kinbiko.java.kata;
 
 public class Kata1 {
 
+	public String getMyProperty()
+	{
+		return "it worked!";
+	}
     /*
      * Write a class that has a method called getMyProperty() which returns a String
      * containing the phrase 'it worked!"

@@ -12,6 +12,49 @@ package com.kinbiko.java.kata;
  * principle known as polymorphism, and this is truly where the power of OOP
  * comes from.
  */
-public class Kata4 {
+public class Kata4
+{
+    Colour color;
     
+    Colour getColourInstance()
+    {
+    	if( color == null )
+    	{
+    		color = new Red();
+    	}
+    	else if ( color instanceof Red )
+    	{
+    		color = new Blue();
+    	}
+    	else
+    	{
+    		color = new Green();
+    	}
+
+    	return color;
+    }
+}
+
+class Red implements Colour
+{
+	public String getColourName()
+	{
+		return "Red";
+	}
+}
+
+class Blue implements Colour
+{
+	public String getColourName()
+	{
+		return "Blue";
+	}
+}
+
+class Green implements Colour
+{
+	public String getColourName()
+	{
+		return "Green";
+	}
 }

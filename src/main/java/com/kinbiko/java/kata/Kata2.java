@@ -5,6 +5,9 @@ package com.kinbiko.java.kata;
  * overrides its getMyProperty() method, returning a string that
  * contains the phrase 'overriding getMyProperty'.
  */
-public class Kata2 {
-    
+public class Kata2 extends Kata1 {
+    public String getMyProperty()
+    {
+    	return "overriding getMyProperty";
+    }
 }
