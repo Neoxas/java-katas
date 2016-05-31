@@ -20,4 +20,6 @@ hs_err_pid*
 .idea/**
 **/*.idea/**
 *.iml
-**/*Solution.java
+
+# Ignore any kata files.
+src/main/java/**/Kata*.java
