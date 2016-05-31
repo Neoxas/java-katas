@@ -16,4 +16,8 @@ hs_err_pid*
 .classpath
 .project
 
+# intelliJ files
+.idea/**
+**/*.idea/**
+*.iml
 **/*Solution.java
