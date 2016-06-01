@@ -22,4 +22,4 @@ hs_err_pid*
 *.iml
 
 # Ignore any kata files.
-src/main/java/**/Kata*.java
+src/main/java/**/*Kata*.java
