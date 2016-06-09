@@ -1,14 +1,15 @@
 package com.kinbiko.java.kata;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
-import com.kinbiko.java.kata.solutions.*;
+import static org.junit.Assert.assertEquals;
 
+/*
+ * Write a class implementing an interface InvocationCounter, with a method which returns
+ * twice the number of times this method has been called.
+ */
 public class Kata3Test{
     InvocationCounter target = new Kata3();
-    		//new Kata3Solution();
 
     @Test
     public void testGetMyProperty(){
